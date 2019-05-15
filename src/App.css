@@ -1,33 +1,32 @@
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-size: 32px;
+  margin-bottom: -10px !important;
+}
+
+small {
+  font-weight: lighter;
+  color: gray;
+  margin: 0;
+}
+
+
 .App {
   text-align: center;
+  padding: 32px;
+  border-radius: 0.5px;
+  width: 19rem;
+  margin: 20px auto;
+  box-shadow: 15px 20px 70px -10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.input-range__label-container {
+  display: none;
+} 
